@@ -2,9 +2,8 @@
 Dasar Pemrograman Esp32 Untuk Pemrosesan Data Input/Output Analog Dan Digital
 
 I.PENJELASAN SINGKAT
-    Praktikum ini menggunakan ESP32 yang merupakan mikrokontroler yang dikenalkan oleh Espressif System merupakan penerus dari mikrokontroler ESP8266. Tersedia modul WiFi dalam chip, bluetooth sehingga sangat mendukung untuk membuat sistem aplikasi Internet of Things. Pin analog pada ESP32 Hanya saja pin analog memiliki fitur untuk dapat mengubah sinyal analog yang masuk menjadi nilai digital yang mudah diukur. Pin analog terhubung dengan converter pada mikrokontroller yang dikenal dengan istilah analog-to-digital converter (disingkat ADC atau A/D). Analog output pada microkontroller dihasilkan oleh teknik yang dikenal dengan istilah PWM atau Pulse Width Modulation. PWM memanipulasi keluaran digital sedemikian rupa sehingga menghasilkan sinyal analog. Metode PWM menggunakan pendekatan perubahan lebar pulsa untuk menghasilkan nilai tegangan analog yang diinginkan. 
-    Regresi analisis adalah teknik statistika untuk menginvestigasi dan memodelkan hubungan antara variabel dari data statistik sebelumnya.
-Praktikum ini bertujuan supaya dapat memahami dan melakukan pengolahan data untuk input/output analog dan digital dan melakukan optimalisasi pembacaan sensor analog menggunakan metode regresi linear.
+
+Praktikum ini menggunakan ESP32 yang merupakan mikrokontroler yang dikenalkan oleh Espressif System yang merupakan penerus dari mikrokontroler ESP8266. Dalam ESP32 tersedia modul WiFi dalam chip dan bluetooth sehingga sangat mendukung untuk membuat sistem aplikasi Internet of Things. Pin analog pada ESP32 memiliki fitur yang dapat mengubah sinyal analog yang masuk menjadi nilai digital yang mudah diukur. Pin analog terhubung dengan converter pada mikrokontroller yang dikenal dengan istilah analog-to-digital converter (disingkat ADC atau A/D). Analog output pada microkontroller dihasilkan oleh teknik yang dikenal dengan istilah PWM atau Pulse Width Modulation. PWM memanipulasi keluaran digital sedemikian rupa sehingga menghasilkan sinyal analog. Metode PWM menggunakan pendekatan perubahan lebar pulsa untuk menghasilkan nilai tegangan analog yang diinginkan. Sedangkan regresi analisis adalah teknik statistika untuk menginvestigasi dan memodelkan hubungan antara variabel dari data statistik sebelumnya. Praktikum ini bertujuan supaya dapat memahami dan melakukan pengolahan data untuk input/output analog dan digital dan melakukan optimalisasi pembacaan sensor analog menggunakan metode regresi linear.
 
 II. ALAT DAN BAHAN 
 
@@ -28,7 +27,9 @@ III. LANGKAH PERCOBAAN
         
       B.Mengakses GPIO dan PWM ESP32
         a) GPIO
-          1. Buatlah rangkaian seperti pada Gambar 1 
+          1. Buatlah rangkaian seperti pada Gambar 1    
+![1](https://user-images.githubusercontent.com/121161133/209552320-5606302a-75c8-4d8e-9bf6-211c79cf5dfc.png)
+     
           2. Buka program example blink, kemudian modifikasi dan buat agar LED dapat melakukan blink dengan interval 100ms, 1 detik, 2 detik dan 3 detik sekali. LED dapat blink 1 detik sekali menggunakan timer milis().
           3. Buatlah program seperti pada script GPIO1.ino untuk mengendalikan led menggunakan push button. Kemudian upload program tersebut pada ESP32 (hasilnya pada video GPIO 1)
           4. Tambahkan 1 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketika push button ke-2 ditekan, LED akan melakukan blink setiap 500 ms sekali. (Hasilnya pada video GPIO 2)
@@ -36,6 +37,8 @@ III. LANGKAH PERCOBAAN
           
         b) PWM 
            1. Buatlah rangkaian seperti pada gambar 2
+![2](https://user-images.githubusercontent.com/121161133/209552694-acdca979-9e74-4d8a-a38f-4d32bc8b586d.png)
+
            2. Buatlah script program seperti pada script GPIO2.ino.
            3. upload program dan hasilnya akan seperti pada video PWM1
            4. Buatlah program lanjutan seperti pada script GPIO3.ino
@@ -43,6 +46,8 @@ III. LANGKAH PERCOBAAN
 
        C.ADC dan DAC 
          1. Buatlah rangkaian seperti pada gambar 3
+![3](https://user-images.githubusercontent.com/121161133/209552883-4ae204c2-588f-4ed7-bec1-c92816e58ef3.png)
+
          2. Buatlah program seperti pada script ADC-DAC1.ino
          3. Putar potensiometer secara perlahan agar mendapatkan nilai 0 hingga 4095 pada tampilan serial monitor. (hasilnya pada video ADC-DAC1)
          4. Buatlah program seperti pada script ADC-DAC2.ino.Tambahkan LED pada GPIO 5.
