@@ -17,12 +17,14 @@ II. ALAT DAN BAHAN
     8) Resistor 330,1K, 10K Ohm (@ 3)
 
 III. LANGKAH PERCOBAAN 
+
       A.Instalasi Board ESP32 pada Arduino IDE 
         1. Buka Arduino IDE 
         2. Klik Menu File > Preferences
         3. Pada kolom Additional ... yang ada dibawah, tambahkan link berikut https://dl.espressif.com/dl/package_esp32_index.json 
         4. Klik menu Tools > Board: > Pilih Boards Manager ...
         5. Pada kolom pencarian tulis ESP32 kemudian install dan tunggu hingga selesai
+        
       B.Mengakses GPIO dan PWM ESP32
         a) GPIO
           1. Buatlah rangkaian seperti pada Gambar 1 
@@ -31,6 +33,7 @@ III. LANGKAH PERCOBAAN
           3. Buatlah program seperti pada script GPIO1.ino untuk mengendalikan led menggunakan push button. Kemudian upload program tersebut pada ESP32 (hasilnya pada              video GPIO 1)
           4. Tambahkan 1 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketika push button ke-2 ditekan, LED akan melakukan blink setiap 500 ms              sekali. (Hasilnya pada video GPIO 2)
           5. Tambahkan 3 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketuka push button ke-3 ditekan, LED akan menyala menjadi running led                (menyala bergantian dari kiri ke kanan). (Hasilnya pada video GPIO 3).
+          
         b) PWM 
            1. Buatlah rangkaian seperti pada gambar 2
            2. Buatlah script program seperti pada script GPIO2.ino.
