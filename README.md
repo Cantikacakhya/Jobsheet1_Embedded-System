@@ -29,11 +29,10 @@ III. LANGKAH PERCOBAAN
       B.Mengakses GPIO dan PWM ESP32
         a) GPIO
           1. Buatlah rangkaian seperti pada Gambar 1 
-          2. Buka program example blink, kemudian modifikasi dan buat agar LED dapat melakukan blink dengan interval 100ms, 1 detik, 2 detik dan 3 detik sekali. 
-             LED dapat blink 1 detik sekali menggunakan timer milis(). Dokumentasikan hasilnya. (video 1)
-          3. Buatlah program seperti pada script GPIO1.ino untuk mengendalikan led menggunakan push button. Kemudian upload program tersebut pada ESP32 (hasilnya pada              video GPIO 1)
-          4. Tambahkan 1 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketika push button ke-2 ditekan, LED akan melakukan blink setiap 500 ms              sekali. (Hasilnya pada video GPIO 2)
-          5. Tambahkan 3 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketuka push button ke-3 ditekan, LED akan menyala menjadi running led                (menyala bergantian dari kiri ke kanan). (Hasilnya pada video GPIO 3).
+          2. Buka program example blink, kemudian modifikasi dan buat agar LED dapat melakukan blink dengan interval 100ms, 1 detik, 2 detik dan 3 detik sekali. LED dapat blink 1 detik sekali menggunakan timer milis(). Dokumentasikan hasilnya. (video 1)
+          3. Buatlah program seperti pada script GPIO1.ino untuk mengendalikan led menggunakan push button. Kemudian upload program tersebut pada ESP32 (hasilnya pada video GPIO 1)
+          4. Tambahkan 1 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketika push button ke-2 ditekan, LED akan melakukan blink setiap 500 ms sekali. (Hasilnya pada video GPIO 2)
+          5. Tambahkan 3 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketuka push button ke-3 ditekan, LED akan menyala menjadi running led (menyala bergantian dari kiri ke kanan). (Hasilnya pada video GPIO 3).
           
         b) PWM 
            1. Buatlah rangkaian seperti pada gambar 2
