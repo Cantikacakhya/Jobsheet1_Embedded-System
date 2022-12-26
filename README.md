@@ -2,11 +2,13 @@
 Dasar Pemrograman Esp32 Untuk Pemrosesan Data Input/Output Analog Dan Digital
 
 I.PENJELASAN SINGKAT
+
     Praktikum ini menggunakan ESP32 yang merupakan mikrokontroler yang dikenalkan oleh Espressif System merupakan penerus dari mikrokontroler ESP8266. Tersedia modul WiFi dalam chip, bluetooth sehingga sangat mendukung untuk membuat sistem aplikasi Internet of Things. Pin analog pada ESP32 Hanya saja pin analog memiliki fitur untuk dapat mengubah sinyal analog yang masuk menjadi nilai digital yang mudah diukur. Pin analog terhubung dengan converter pada mikrokontroller yang dikenal dengan istilah analog-to-digital converter (disingkat ADC atau A/D). Analog output pada microkontroller dihasilkan oleh teknik yang dikenal dengan istilah PWM atau Pulse Width Modulation. PWM memanipulasi keluaran digital sedemikian rupa sehingga menghasilkan sinyal analog. Metode PWM menggunakan pendekatan perubahan lebar pulsa untuk menghasilkan nilai tegangan analog yang diinginkan. 
     Regresi analisis adalah teknik statistika untuk menginvestigasi dan memodelkan hubungan antara variabel dari data statistik sebelumnya.
 Praktikum ini bertujuan supaya dapat memahami dan melakukan pengolahan data untuk input/output analog dan digital dan melakukan optimalisasi pembacaan sensor analog menggunakan metode regresi linear.
 
 II. ALAT DAN BAHAN 
+
      1) ESP32 
     2) Breadboard 
     3) Kabel jumper 
